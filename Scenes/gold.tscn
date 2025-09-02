@@ -1,0 +1,84 @@
+[gd_scene load_steps=13 format=3 uid="uid://bwpbak70voecd"]
+
+[ext_resource type="Script" uid="uid://bbcnrlb0d3amy" path="res://Scenes/Gold.cs" id="1_f32ux"]
+[ext_resource type="Texture2D" uid="uid://btucgd1gcnv3g" path="res://Assets/coin-gem-xp/Coin/Sheet/coin-Sheet.png" id="2_1lqfo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q4j6m"]
+atlas = ExtResource("2_1lqfo")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jneoo"]
+atlas = ExtResource("2_1lqfo")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_flxtx"]
+atlas = ExtResource("2_1lqfo")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_28x8f"]
+atlas = ExtResource("2_1lqfo")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ghx5j"]
+atlas = ExtResource("2_1lqfo")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8jjsb"]
+atlas = ExtResource("2_1lqfo")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mkt3x"]
+atlas = ExtResource("2_1lqfo")
+region = Rect2(192, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dp635"]
+atlas = ExtResource("2_1lqfo")
+region = Rect2(224, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jb3km"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q4j6m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jneoo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_flxtx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_28x8f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ghx5j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8jjsb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mkt3x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dp635")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_sr2vs"]
+radius = 11.0454
+
+[node name="Gold" type="Area2D"]
+collision_layer = 8
+collision_mask = 2
+script = ExtResource("1_f32ux")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_jb3km")
+frame_progress = 0.152918
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("CircleShape2D_sr2vs")

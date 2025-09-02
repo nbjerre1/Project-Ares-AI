@@ -1,0 +1,76 @@
+﻿import json
+import numpy as np
+import torch
+import torch.nn as nn
+import torch.optim as optim
+
+# 1. Load and preprocess data
+ACTIONS = ["move_left", "move_right", "move_up", "move_down"]
+action_to_idx = {a: i for i, a in enumerate(ACTIONS)}
+
+states = []
+actions = []
+with open("data.jsonl", "r") as f:
+    # When loading data
+    for line in f:
+        d = json.loads(line)
+        mob = d.get("mobs", [])
+        if mob:
+            mob_x = mob[0]["x"]
+            mob_y = mob[0]["y"]
+        else:
+            mob_x = 0
+            mob_y = 0
+        states.append([d["x"], d["y"], d["health"], d["timer"], mob_x, mob_y])
+        action = d["action"].strip()
+        actions.append(action_to_idx[action])
+
+X = np.array(states, dtype=np.float32)
+y = np.array(actions, dtype=np.int64)
+
+# Optional: Normalize X
+X_mean = X.mean(axis=0)
+X_std = X.std(axis=0)
+X_norm = (X - X_mean) / (X_std + 1e-8)
+
+X_tensor = torch.tensor(X_norm, dtype=torch.float32)
+y_tensor = torch.tensor(y, dtype=torch.long)
+
+# 2. Define the model
+class BotNet(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.fc = nn.Sequential(
+            nn.Linear(6, 32),  # Adjust input size to match new state size (4 features)
+            nn.ReLU(),
+            nn.Linear(32, 6)
+        )
+    def forward(self, x):
+        return self.fc(x)
+
+model = BotNet()
+optimizer = optim.Adam(model.parameters(), lr=0.001)
+criterion = nn.CrossEntropyLoss()
+
+# 3. Train the model
+num_epochs = 20
+for epoch in range(num_epochs):
+    optimizer.zero_grad()
+    outputs = model(X_tensor)
+    loss = criterion(outputs, y_tensor)
+    loss.backward()
+    optimizer.step()
+    print(f"Epoch {epoch+1}/{num_epochs}, Loss: {loss.item():.4f}")
+
+# 4. Save the model
+torch.save(model.state_dict(), "BotModel.pth")
+print("Model saved as BotModel.pth")
+
+# When opening files for writing JSON, ensure you use encoding="utf-8" and do not add a BOM.
+with open("modeldata.jsonl", "w", encoding="utf-8") as f:
+    # ...write your data...
+    pass
+
+# This file is now unused; logic is moved to usemodel.py as train_model().
+# Optionally, keep as a stub or remove.
+# (No code needed here if you refactor as above.)

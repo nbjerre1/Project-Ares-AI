@@ -1,0 +1,104 @@
+﻿import socket
+import json
+import torch
+import torch.nn as nn
+import numpy as np
+import argparse
+import os
+import time
+
+class SimpleNet(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.fc = nn.Sequential(
+            nn.Linear(6, 32),  # Changed input size from 3 to 4 to include timer
+            nn.ReLU(),
+            nn.Linear(32, 6)
+        )
+    def forward(self, x):
+        return self.fc(x)
+
+model = SimpleNet()
+model.load_state_dict(torch.load('BotModel.pth'))
+model.eval()
+
+ACTIONS = ["move_left", "move_right", "move_up", "move_down"]
+
+def collect_data(sock, log_file):
+    while True:
+        line = sock.makefile('r').readline()
+        if not line:
+            break
+        state = json.loads(line)
+        print("State from Godot:", state)
+
+        mob = state.get("mobs", [])
+        if mob:
+            mob_x = mob[0]["x"]
+            mob_y = mob[0]["y"]
+        else:
+            mob_x = 0
+            mob_y = 0
+
+        state_arr = np.array([state['x'], state['y'], state['health'], state['timer'], mob_x, mob_y], dtype=np.float32)
+    
+        state_tensor = torch.tensor(state_arr).unsqueeze(0)
+
+        with torch.no_grad():
+            logits = model(state_tensor)
+            action_idx = torch.argmax(logits, dim=1).item()
+            action = ACTIONS[action_idx]
+            print(f"Model chose action: {action}")
+
+        log_entry = {
+            "x": state["x"],
+            "y": state["y"],
+            "health": state["health"],
+            "timer": state["timer"],
+            "action": action
+        }
+        log_file.write(json.dumps(log_entry) + "\n")
+        log_file.flush()
+        sock.sendall((action + "\n").encode())
+        if state.get("health", 1) <= 0:
+            print("Player died! Triggering retrain.")
+            return "died"
+
+def train_model():
+    # This is the content of createmodel.py, refactored as a function
+    # ...copy all code from createmodel.py here, but as a function...
+    # (see below for actual code block)
+    pass
+
+def connect_socket():
+    """Helper to connect to the Godot socket server with retry logic."""         
+    while True:
+        try:
+            sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            sock.connect(('localhost', 12345))
+            print("Connected to socket server.")
+            return sock
+        except (ConnectionRefusedError, OSError):
+            print("Socket server not available, retrying in 2 seconds...")
+            time.sleep(2)
+
+def infer(sock, model, log_file):
+    try:
+        sock_file = sock.makefile('r')
+        while True:
+            model = SimpleNet()
+            model.load_state_dict(torch.load('BotModel.pth'))
+            model.eval()
+            result = infer(sock, model, log_file)
+            if result == "died":
+                print("Retraining model after death...")
+                train_model()
+                print("Reloading model...")
+            else:
+                break
+
+    sock.close()
+    log_file.close()
+
+if __name__ == "__main__":
+    main()

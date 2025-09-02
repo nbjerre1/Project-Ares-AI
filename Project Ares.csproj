@@ -1,0 +1,12 @@
+<Project Sdk="Godot.NET.Sdk/4.4.1">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <RootNamespace>ProjectAres</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="createdataset.py" />
+    <None Include="createmodel.py" />
+    <None Include="usemodel.py" />
+  </ItemGroup>
+</Project>

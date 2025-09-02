@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://drcuf46d2cf3m"]
+
+[ext_resource type="Script" uid="uid://b114hb61pdmw6" path="res://Scripts/Xpdrop.cs" id="1_vr00p"]
+[ext_resource type="Texture2D" uid="uid://c5yjk0hrc5c66" path="res://Assets/coin-gem-xp/skull.png" id="1_xcjqj"]
+[ext_resource type="AudioStream" uid="uid://cf4ke6jo7ot4i" path="res://Assets/Sounds/coin-recieved-230517.mp3" id="3_tvx4a"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_xcjqj"]
+radius = 8.0
+
+[node name="Xpdrop" type="Area2D"]
+collision_layer = 8
+collision_mask = 2
+script = ExtResource("1_vr00p")
+XpAmount = 10
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.222656, 0.222656)
+texture = ExtResource("1_xcjqj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_xcjqj")
+
+[node name="PickupSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_tvx4a")
+volume_db = -30.014
+
+[connection signal="body_entered" from="." to="." method="OnBodyEntered"]

@@ -1,0 +1,71 @@
+[gd_scene load_steps=5 format=3 uid="uid://bhhiriadfpboj"]
+
+[ext_resource type="Script" uid="uid://cmwp360ixxdhy" path="res://Scenes/UpgradeMenu.cs" id="1_ltp0x"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ltp0x"]
+bg_color = Color(0.816526, 0.522274, 0.265795, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_11363"]
+bg_color = Color(0.813638, 0.524132, 0.267163, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6gn5s"]
+bg_color = Color(0.546581, 0.0929965, 0.639463, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[node name="UpgradeMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -20.0
+offset_top = -3.0
+offset_right = -20.0
+offset_bottom = -3.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ltp0x")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Button" type="Button" parent="CanvasLayer"]
+offset_left = 497.0
+offset_top = 213.0
+offset_right = 675.0
+offset_bottom = 253.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+theme_override_styles/hover = SubResource("StyleBoxFlat_ltp0x")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_11363")
+theme_override_styles/normal = SubResource("StyleBoxFlat_6gn5s")
+text = "Fire"
+
+[node name="Button2" type="Button" parent="CanvasLayer"]
+offset_left = 496.0
+offset_top = 261.0
+offset_right = 674.0
+offset_bottom = 303.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+theme_override_styles/hover = SubResource("StyleBoxFlat_ltp0x")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_11363")
+theme_override_styles/normal = SubResource("StyleBoxFlat_6gn5s")
+text = "Ice"
+
+[node name="Button3" type="Button" parent="CanvasLayer"]
+offset_left = 495.0
+offset_top = 310.0
+offset_right = 673.0
+offset_bottom = 352.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+theme_override_styles/hover = SubResource("StyleBoxFlat_ltp0x")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_11363")
+theme_override_styles/normal = SubResource("StyleBoxFlat_6gn5s")
+text = "Diagonally"

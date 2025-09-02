@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://bgjvkw8yyb4ao"]
+
+[ext_resource type="Script" uid="uid://buxj6ebcsjmfp" path="res://Scripts/Arrow.cs" id="1_7v023"]
+[ext_resource type="Texture2D" uid="uid://top3twudmkp4" path="res://Assets/weapons/Arrow01(32x32).png" id="2_2nt64"]
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_4s4u5"]
+a = Vector2(-9, 1)
+b = Vector2(10, 1)
+
+[node name="Area2D" type="Area2D"]
+collision_mask = 5
+script = ExtResource("1_7v023")
+speed = 300.0
+Removerange = 600.0
+Damage = 34
+
+[node name="Arrow01(32x32)" type="Sprite2D" parent="."]
+texture = ExtResource("2_2nt64")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -1)
+shape = SubResource("SegmentShape2D_4s4u5")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

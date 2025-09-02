@@ -1,0 +1,282 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|c:\\users\\nbjer\\desktop\\skole\\4 semestert\\ai ting\\project-ares-ai\\usemodel.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|solutionrelative:usemodel.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|c:\\users\\nbjer\\desktop\\skole\\4 semestert\\ai ting\\project-ares-ai\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|solutionrelative:scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|c:\\users\\nbjer\\desktop\\skole\\4 semestert\\ai ting\\project-ares-ai\\scripts\\xpdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|solutionrelative:scripts\\xpdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|c:\\users\\nbjer\\desktop\\skole\\4 semestert\\ai ting\\project-ares-ai\\scripts\\xpbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|solutionrelative:scripts\\xpbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|c:\\users\\nbjer\\desktop\\skole\\4 semestert\\ai ting\\project-ares-ai\\scenes\\upgrademenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|solutionrelative:scenes\\upgrademenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|c:\\users\\nbjer\\desktop\\skole\\4 semestert\\ai ting\\project-ares-ai\\scripts\\mushroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|solutionrelative:scripts\\mushroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|c:\\users\\nbjer\\desktop\\skole\\4 semestert\\ai ting\\project-ares-ai\\scenes\\socketserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|solutionrelative:scenes\\socketserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|c:\\users\\nbjer\\desktop\\skole\\4 semestert\\ai ting\\project-ares-ai\\createmodel.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|solutionrelative:createmodel.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|c:\\users\\nbjer\\desktop\\skole\\4 semestert\\ai ting\\project-ares-ai\\createdataset.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|solutionrelative:createdataset.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|c:\\users\\nbjer\\desktop\\skole\\4 semestert\\ai ting\\project-ares-ai\\scenes\\gold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|solutionrelative:scenes\\gold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|c:\\users\\nbjer\\desktop\\skole\\4 semestert\\ai ting\\project-ares-ai\\scripts\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|solutionrelative:scripts\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|c:\\users\\nbjer\\desktop\\skole\\4 semestert\\ai ting\\project-ares-ai\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|solutionrelative:scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|c:\\users\\nbjer\\desktop\\skole\\4 semestert\\ai ting\\project-ares-ai\\scripts\\hp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|solutionrelative:scripts\\hp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|c:\\users\\nbjer\\desktop\\skole\\4 semestert\\ai ting\\project-ares-ai\\scripts\\stopwatchlabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C584F252-3701-427E-94BE-8C7279703FAA}|Project Ares.csproj|solutionrelative:scripts\\stopwatchlabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Xpdrop.cs",
+              "DocumentMoniker": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scripts\\Xpdrop.cs",
+              "RelativeDocumentMoniker": "Scripts\\Xpdrop.cs",
+              "ToolTip": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scripts\\Xpdrop.cs",
+              "RelativeToolTip": "Scripts\\Xpdrop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T11:41:32.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "XpBar.cs",
+              "DocumentMoniker": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scripts\\XpBar.cs",
+              "RelativeDocumentMoniker": "Scripts\\XpBar.cs",
+              "ToolTip": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scripts\\XpBar.cs",
+              "RelativeToolTip": "Scripts\\XpBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T11:36:16.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "usemodel.py",
+              "DocumentMoniker": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\usemodel.py",
+              "RelativeDocumentMoniker": "usemodel.py",
+              "ToolTip": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\usemodel.py",
+              "RelativeToolTip": "usemodel.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-09-02T06:17:51.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "createmodel.py",
+              "DocumentMoniker": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\createmodel.py",
+              "RelativeDocumentMoniker": "createmodel.py",
+              "ToolTip": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\createmodel.py",
+              "RelativeToolTip": "createmodel.py",
+              "ViewState": "AgIAADUAAAAAAAAAAAAswEsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-09-02T05:43:07.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "createdataset.py",
+              "DocumentMoniker": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\createdataset.py",
+              "RelativeDocumentMoniker": "createdataset.py",
+              "ToolTip": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\createdataset.py",
+              "RelativeToolTip": "createdataset.py",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-09-01T12:32:56.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SocketServer.cs",
+              "DocumentMoniker": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scenes\\SocketServer.cs",
+              "RelativeDocumentMoniker": "Scenes\\SocketServer.cs",
+              "ToolTip": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scenes\\SocketServer.cs",
+              "RelativeToolTip": "Scenes\\SocketServer.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAowMUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T12:13:39.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Mushroom.cs",
+              "DocumentMoniker": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scripts\\Mushroom.cs",
+              "RelativeDocumentMoniker": "Scripts\\Mushroom.cs",
+              "ToolTip": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scripts\\Mushroom.cs",
+              "RelativeToolTip": "Scripts\\Mushroom.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAcwH0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T10:52:07.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StopwatchLabel.cs",
+              "DocumentMoniker": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scripts\\StopwatchLabel.cs",
+              "RelativeDocumentMoniker": "Scripts\\StopwatchLabel.cs",
+              "ToolTip": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scripts\\StopwatchLabel.cs",
+              "RelativeToolTip": "Scripts\\StopwatchLabel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T06:33:11.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Scripts\\Player.cs",
+              "ToolTip": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scripts\\Player.cs",
+              "RelativeToolTip": "Scripts\\Player.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAtwM4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T06:33:10.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HP.cs",
+              "DocumentMoniker": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scripts\\HP.cs",
+              "RelativeDocumentMoniker": "Scripts\\HP.cs",
+              "ToolTip": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scripts\\HP.cs",
+              "RelativeToolTip": "Scripts\\HP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T06:33:09.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scripts\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Scripts\\EnemySpawner.cs",
+              "ToolTip": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scripts\\EnemySpawner.cs",
+              "RelativeToolTip": "Scripts\\EnemySpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T06:33:08.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Arrow.cs",
+              "DocumentMoniker": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scripts\\Arrow.cs",
+              "RelativeDocumentMoniker": "Scripts\\Arrow.cs",
+              "ToolTip": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scripts\\Arrow.cs",
+              "RelativeToolTip": "Scripts\\Arrow.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T06:33:08.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpgradeMenu.cs",
+              "DocumentMoniker": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scenes\\UpgradeMenu.cs",
+              "RelativeDocumentMoniker": "Scenes\\UpgradeMenu.cs",
+              "ToolTip": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scenes\\UpgradeMenu.cs",
+              "RelativeToolTip": "Scenes\\UpgradeMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T06:33:07.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Gold.cs",
+              "DocumentMoniker": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scenes\\Gold.cs",
+              "RelativeDocumentMoniker": "Scenes\\Gold.cs",
+              "ToolTip": "C:\\Users\\nbjer\\Desktop\\Skole\\4 semestert\\ai ting\\project-ares-ai\\Scenes\\Gold.cs",
+              "RelativeToolTip": "Scenes\\Gold.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T06:33:07.01Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bu37f6jxhi2o"]
+
+[ext_resource type="Script" uid="uid://dcxg56688uklm" path="res://Scenes/SocketServer.cs" id="1_l8ohe"]
+
+[node name="SocketServer" type="Node2D"]
+script = ExtResource("1_l8ohe")

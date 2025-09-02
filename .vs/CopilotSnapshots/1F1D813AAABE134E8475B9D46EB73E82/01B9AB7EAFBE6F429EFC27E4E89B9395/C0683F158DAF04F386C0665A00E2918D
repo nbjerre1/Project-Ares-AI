@@ -1,0 +1,77 @@
+﻿import socket
+import json
+import torch
+import torch.nn as nn
+import numpy as np
+
+class SimpleNet(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.fc = nn.Sequential(
+            nn.Linear(6, 32),  # Changed input size from 3 to 4 to include timer
+            nn.ReLU(),
+            nn.Linear(32, 6)
+        )
+    def forward(self, x):
+        return self.fc(x)
+
+model = SimpleNet()
+model.load_state_dict(torch.load('BotModel.pth'))
+model.eval()
+
+ACTIONS = ["move_left", "move_right", "move_up", "move_down"]
+
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+sock.connect(('localhost', 12345))
+sock_file = sock.makefile('r')
+
+log_file = open("data.jsonl", "a")  # Open log file
+
+try:
+    while True:
+        line = sock_file.readline()
+        if not line:
+            break
+
+        state = json.loads(line)
+        print("State from Godot:", state)
+
+        # Expecting timer in the state
+        mob = state.get("mobs", [])
+        if mob:
+            mob_x = mob[0]["x"]
+            mob_y = mob[0]["y"]
+        else:
+            mob_x = 0
+            mob_y = 0
+
+        state_arr = np.array([state['x'], state['y'], state['health'], state['timer'], mob_x, mob_y], dtype=np.float32)
+    
+        state_tensor = torch.tensor(state_arr).unsqueeze(0)
+
+        with torch.no_grad():
+            logits = model(state_tensor)
+            action_idx = torch.argmax(logits, dim=1).item()
+            action = ACTIONS[action_idx]
+            print(f"Model chose action: {action}")
+
+        # Log the state and action, including timer
+        log_entry = {
+            "x": state["x"],
+            "y": state["y"],
+            "health": state["health"],
+            "timer": state["timer"],
+            "action": action
+        }
+        log_file.write(json.dumps(log_entry) + "\n")
+        log_file.flush()
+
+        sock.sendall((action + "\n").encode())
+
+except KeyboardInterrupt:
+    print("Stopped by user")
+except Exception as e:
+    print("Python error:", e)
+finally:
+    sock.close()
+    log_file.close()

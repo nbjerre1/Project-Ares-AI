@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="PlayerData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Scripts/PlayerData.cs" id="1_ldidj"]
+
+[resource]
+script = ExtResource("1_ldidj")
+Gold = 2933

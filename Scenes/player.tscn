@@ -1,0 +1,56 @@
+[gd_scene load_steps=8 format=3 uid="uid://dhhh7ubqjakqt"]
+
+[ext_resource type="Texture2D" uid="uid://sc2c6qlqbby4" path="res://Assets/Player/PlayerLars.png" id="1_4flbx"]
+[ext_resource type="Script" uid="uid://gxdja7l3mats" path="res://Scripts/Player.cs" id="1_onrkg"]
+[ext_resource type="PackedScene" uid="uid://bhhiriadfpboj" path="res://Scenes/upgrade_menu.tscn" id="2_vgqql"]
+[ext_resource type="Script" uid="uid://bci1s7odtnnru" path="res://Scripts/HP.cs" id="3_6t5aa"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_onrkg"]
+height = 33.3131
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_onrkg"]
+radius = 434.259
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6t5aa"]
+bg_color = Color(1, 0, 0, 1)
+
+[node name="Player" type="CharacterBody2D" groups=["player"]]
+collision_layer = 2
+collision_mask = 11
+motion_mode = 1
+platform_on_leave = 2
+script = ExtResource("1_onrkg")
+UpgradeMenuScene = ExtResource("2_vgqql")
+
+[node name="PlayerLars" type="Sprite2D" parent="."]
+scale = Vector2(1.24366, 1.24366)
+texture = ExtResource("1_4flbx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, -1)
+scale = Vector2(-0.557251, 1.02062)
+shape = SubResource("CapsuleShape2D_onrkg")
+
+[node name="ShootingPoint" type="Marker2D" parent="."]
+
+[node name="DetectionArea" type="Area2D" parent="."]
+visible = false
+collision_layer = 0
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea"]
+shape = SubResource("CircleShape2D_onrkg")
+
+[node name="Health" type="Node2D" parent="."]
+script = ExtResource("3_6t5aa")
+
+[node name="HealthBar" type="ProgressBar" parent="."]
+visible = false
+offset_left = -17.0
+offset_top = -26.0
+offset_right = 17.0
+offset_bottom = -22.0
+theme_override_styles/fill = SubResource("StyleBoxFlat_6t5aa")
+show_percentage = false
+
+[connection signal="body_entered" from="DetectionArea" to="." method="On_detection_area_body_entered"]

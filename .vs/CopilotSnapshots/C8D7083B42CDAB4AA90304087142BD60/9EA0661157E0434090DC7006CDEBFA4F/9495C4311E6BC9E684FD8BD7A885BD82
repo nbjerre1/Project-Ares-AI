@@ -1,0 +1,3 @@
+﻿# This file is now unused; logic is moved to usemodel.py as collect_data().
+# Optionally, keep as a stub or remove.
+# (No code needed here if you refactor as above.)
