@@ -262,7 +262,8 @@ public partial class Player : CharacterBody2D
         { "x", (float)GlobalPosition.X },
         { "y", (float)GlobalPosition.Y },
         { "health", (int)Health },
-        { "timer", StopwatchLabel.GameTime }
+        { "timer", StopwatchLabel.GameTime },
+        { "xpdrop", _xp }
     };
     }
 

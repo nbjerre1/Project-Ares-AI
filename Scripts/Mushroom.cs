@@ -122,7 +122,7 @@ public partial class Mushroom : CharacterBody2D
                 var xpdrop = (Node2D)XPdropScene.Instantiate();
                 xpdrop.GlobalPosition = GlobalPosition;
                 // calldeferred to ensure it runs after current frame
-                GetParent().CallDeferred("add_child", xpdrop);
+               // GetParent().CallDeferred("add_child", xpdrop);
             
        
         QueueFree();

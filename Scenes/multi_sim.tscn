@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://cidmj1aamincg"]
+
+[ext_resource type="PackedScene" uid="uid://dcju4efgxnei8" path="res://Scenes/Main.tscn" id="1_2kjlv"]
+
+[node name="MultiSim" type="Node2D"]
+
+[node name="GridContainer" type="GridContainer" parent="."]
+offset_left = -1666.0
+offset_top = -1701.0
+offset_right = 1734.0
+offset_bottom = 1699.0
+columns = 2
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="GridContainer"]
+layout_mode = 2
+
+[node name="SubViewport" type="SubViewport" parent="GridContainer/SubViewportContainer"]
+handle_input_locally = false
+size = Vector2i(3300, 3300)
+render_target_update_mode = 4
+
+[node name="Main" parent="GridContainer/SubViewportContainer/SubViewport" instance=ExtResource("1_2kjlv")]
+position = Vector2(2239, 2011)
+
+[node name="SubViewport2" type="SubViewport" parent="GridContainer/SubViewportContainer"]
+handle_input_locally = false
+size = Vector2i(2, 2)
+render_target_update_mode = 4
+
+[node name="Main" parent="GridContainer/SubViewportContainer/SubViewport2" instance=ExtResource("1_2kjlv")]

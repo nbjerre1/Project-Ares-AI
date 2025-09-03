@@ -7,6 +7,9 @@
   <ItemGroup>
     <None Include="createdataset.py" />
     <None Include="createmodel.py" />
+    <None Include="multiple_bots.py" />
+    <None Include="plot_loss.py" />
+    <None Include="train_loss.log" />
     <None Include="usemodel.py" />
   </ItemGroup>
 </Project>

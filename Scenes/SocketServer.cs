@@ -10,6 +10,9 @@ using System.IO;
 
 public partial class SocketServer : Node2D
 {
+    [Export]
+    public int StartPort = 12345; // Default, can be set per instance
+
     private TcpListener _server;
     private TcpClient _client;
     private NetworkStream stream;
@@ -28,6 +31,17 @@ public partial class SocketServer : Node2D
 
     public override void _Ready()
     {
+        int port = StartPort;
+        foreach (Node mainInstance in GetChildren())
+        {
+            var socketServer = mainInstance.GetNodeOrNull("SocketServer");
+            if (socketServer != null)
+            {
+                socketServer.Set("StartPort", port);
+                port++;
+            }
+        }
+        Engine.TimeScale = 6.0f; // Ensure normal time scale
         _isRunning = true;
         new Thread(StartServer).Start();
     }
@@ -52,7 +66,7 @@ public partial class SocketServer : Node2D
     {
         try
         {
-            _server = new TcpListener(IPAddress.Loopback, 12345);
+            _server = new TcpListener(IPAddress.Loopback, StartPort);
             _server.Start();
             GD.Print("Socket server started");
 
@@ -139,6 +153,21 @@ public partial class SocketServer : Node2D
             if (mobNode is Mushroom m)
                 mobStates.Add(m.GetState());
         }
+
+        // Collect XP drop states
+        var xpDropStates = new List<Dictionary<string, float>>();
+        foreach (var xpNode in GetTree().GetNodesInGroup("xpdrop"))
+        {
+            if (xpNode is Node2D xp)
+            {
+                xpDropStates.Add(new Dictionary<string, float>
+            {
+                { "x", xp.GlobalPosition.X },
+                { "y", xp.GlobalPosition.Y }
+            });
+            }
+        }
+
         Player player = GetTree().Root.FindChild("Player", true, false) as Player;
         if (player != null)
         {
@@ -148,7 +177,9 @@ public partial class SocketServer : Node2D
                 y = player.GlobalPosition.Y,
                 health = player.Health,
                 timer = StopwatchLabel.GameTime,
-                mobs = mobStates
+                xpdrop = player._xp,
+                mobs = mobStates,
+                xp_drops = xpDropStates
             };
             string json = JsonSerializer.Serialize(state) + "\n";
             lock (_stateLock)

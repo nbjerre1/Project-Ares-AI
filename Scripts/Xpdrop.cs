@@ -12,6 +12,7 @@ public partial class Xpdrop : Area2D
 
     public override void _Ready()
     {
+        AddToGroup("xpdrop"); // Add this line
         BodyEntered += OnBodyEntered;
     }
     private void DisableShape(CollisionShape2D shape)
