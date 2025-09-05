@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates a reinforcement learning (RL) agent that learns to survive for 30 minutes in a custom game environment without dying. The agent interacts with the game via a socket interface, receives state information, and sends back actions in real time. The project showcases deep RL techniques, custom reward shaping, and robust engineering to achieve long-term survival.
+This project demonstrates a reinforcement learning agent using Deep Q-Learning with a neural network, that learns to survive for 30 minutes in a custom game environment without dying. The agent interacts with the game via a socket interface, receives state information, and sends back actions in real time. The project showcases deep RL techniques, custom reward shaping, and robust engineering to achieve long-term survival.
 
 <img width="898" height="413" alt="Skærmbillede 2025-09-05 074639" src="https://github.com/user-attachments/assets/89392192-f363-4845-9f07-1c3ec9f9e974" />
 
