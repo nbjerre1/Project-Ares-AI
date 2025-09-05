@@ -1,0 +1,14 @@
+Camera2D
+Camera3D
+SubViewport
+SubViewportContainer
+GridContainer
+Label
+CollisionShape2D
+StaticBody2D
+Node2D
+NavigationRegion2D
+Timer
+NavigationAgent2D
+CanvasLayer
+TileMapLayer

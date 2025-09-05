@@ -1,0 +1,160 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1757055132
+death_times.log::TextFile::-1::1757022608::0::1::::<><><>0<>0<><>::
+default_bus_layout.tres::AudioBusLayout/AudioBusLayout::5689949003951101363::1755692695::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D/CompressedTexture2D::6823166039001504043::1754899374::1754977642::1::::<><><>0<>0<>6787a67abd63ee585d7d671a2bf185bc<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+player_data.tres::Resource/PlayerData::-1::1756813165::0::1::::<><><>0<>0<><>::res://Scripts/PlayerData.cs
+train_loss.log::TextFile::-1::1757022639::0::1::::<><><>0<>0<><>::
+::res://Godot - Project Ares AI/::1757055132
+::res://Godot - Project Ares AI/__pycache__/::1756728902
+::res://Godot - Project Ares AI/addons/::1756368716
+::res://Godot - Project Ares AI/addons/32rogues/::1756368716
+32rogues-palette.png::CompressedTexture2D::218052494693676941::1755519001::1757055143::1::::<><><>0<>0<>170280f8c8a86cdd13f4827a0b0f54ef<>res://.godot/imported/32rogues-palette.png-7894413fbc64cf79c26b3b0baadd1cb0.ctex::
+animals.png::CompressedTexture2D::1726274868116165514::1755519001::1757055143::1::::<><><>0<>0<>d99bc29f02f74dd3b812ccf6e23bc133<>res://.godot/imported/animals.png-47999f4f8ce51cbc7ba8cb7638354bac.ctex::
+animals.txt::TextFile::-1::1755519001::0::1::::<><><>0<>0<><>::
+animated-tiles.png::CompressedTexture2D::3445961716298643304::1755519001::1757055143::1::::<><><>0<>0<>48321ff84bdf4971e8aa796c59417bf6<>res://.godot/imported/animated-tiles.png-10dbd9298ceb2e95369038e061afd818.ctex::
+animated-tiles.txt::TextFile::-1::1755519001::0::1::::<><><>0<>0<><>::
+autotiles.png::CompressedTexture2D::6994068458841391314::1755519001::1757055143::1::::<><><>0<>0<>4c33a8f3b5d4b4c2b55af3a2f670682c<>res://.godot/imported/autotiles.png-f310bb3df9f382ce3d2a81aef647c96c.ctex::
+autotiles.txt::TextFile::-1::1755519001::0::1::::<><><>0<>0<><>::
+items-palette-swaps.png::CompressedTexture2D::945056994282336859::1755519001::1757055143::1::::<><><>0<>0<>ade407e3f7347c1a7af1beb70c4648a4<>res://.godot/imported/items-palette-swaps.png-c2438e7ec79d6d51d5b8e3c53ff0e1cd.ctex::
+items.png::CompressedTexture2D::7145287701393328642::1755519001::1757055143::1::::<><><>0<>0<>e42a62c76dbd7c5c425b309eb831fed4<>res://.godot/imported/items.png-029c0d49068c8c3a087f42b2294613b3.ctex::
+items.txt::TextFile::-1::1755519001::0::1::::<><><>0<>0<><>::
+LICENSE.txt::TextFile::-1::1755519001::0::1::::<><><>0<>0<><>::
+monsters.png::CompressedTexture2D::8047222083413281565::1755519001::1757055143::1::::<><><>0<>0<>bc65dc6446a8e06500978aa8997e5efe<>res://.godot/imported/monsters.png-f2aecac7cba50b9486cf55be8e8513d9.ctex::
+monsters.txt::TextFile::-1::1755519001::0::1::::<><><>0<>0<><>::
+rogues.png::CompressedTexture2D::4555670638585473574::1755519001::1757055143::1::::<><><>0<>0<>cf3bb291209e430e21df232c5f389ab5<>res://.godot/imported/rogues.png-fd98fb9742d86847c21eb8a14ae36493.ctex::
+rogues.txt::TextFile::-1::1755519001::0::1::::<><><>0<>0<><>::
+tiles.png::CompressedTexture2D::3417673184166361392::1755519001::1757055143::1::::<><><>0<>0<>a07e0954f902b035b9c35d80df5b6e5a<>res://.godot/imported/tiles.png-ac7ebac3f78acb37776ceecd84fa5635.ctex::
+tiles.txt::TextFile::-1::1755519001::0::1::::<><><>0<>0<><>::
+::res://Godot - Project Ares AI/addons/AutoBattlers Crew - Free Asset/::1756368716
+Battlers Collection Screen.png::CompressedTexture2D::5621845558418074752::1755519001::1757055143::1::::<><><>0<>0<>904cc97a334c590ad884d943533d805e<>res://.godot/imported/Battlers Collection Screen.png-f103271d2c5dc80924ee26cd4bba5758.ctex::
+Battlers-2x-white outline.png::CompressedTexture2D::1324109620582169613::1755519001::1757055143::1::::<><><>0<>0<>365b4ced208a19391bb4b2256ce6a97d<>res://.godot/imported/Battlers-2x-white outline.png-e222374b8bc736ef1872eb1f24bea1b9.ctex::
+Battlers.png::CompressedTexture2D::6201085024133702732::1755519001::1757055143::1::::<><><>0<>0<>037b1a2dc6ce5f4b1d9801bfaf05100f<>res://.godot/imported/Battlers.png-beef5e315ed7cfe7e4721e441b9293b3.ctex::
+collection BG-shape only.png::CompressedTexture2D::6927862545916346269::1755519001::1757055143::1::::<><><>0<>0<>55fcc0f9bbc6940c8df1e4ba6b5f9ca5<>res://.godot/imported/collection BG-shape only.png-4c4d97dab8320f84f8ca8885faee71ca.ctex::
+collection BG.png::CompressedTexture2D::7335254086828806175::1755519001::1757055143::1::::<><><>0<>0<>721854fe479d527a19e1cee4653eb060<>res://.godot/imported/collection BG.png-346ea170a4727f08a9c29988c348a388.ctex::
+UI.png::CompressedTexture2D::6705462818565793332::1755519001::1757055143::1::::<><><>0<>0<>1d8a2790d62c06022c5fe9a50cf858f0<>res://.godot/imported/UI.png-8470c01d5953b6f61296517c73c08a62.ctex::
+::res://Godot - Project Ares AI/addons/AutoBattlers Crew - Free Asset/mockups/::1756368716
+UI-sheet.png::CompressedTexture2D::7785226886756372605::1755519001::1757055143::1::::<><><>0<>0<>af9088715bbf8b89fb85e8a05d833102<>res://.godot/imported/UI-sheet.png-2e7a76a02f061f554831e2e9b70d074d.ctex::
+::res://Godot - Project Ares AI/addons/Biomes Tilesets/::1756368716
+grass for shader.png::CompressedTexture2D::643229531432784543::1755856406::1757055143::1::::<><><>0<>0<>8aac6a108c712f9383eea7645808d9bd<>res://.godot/imported/grass for shader.png-2d864465a5bfdd60cdf8d8a49da7d24e.ctex::
+TS_Beach_Sand.png::CompressedTexture2D::2055608676661005687::1755494486::1757055143::1::::<><><>0<>0<>bda02040cbbfac1943ca8a4e88ce8aa1<>res://.godot/imported/TS_Beach_Sand.png-534f83b01b4f0a4deab17c5342dec61b.ctex::
+TS_Field_Grass.png::CompressedTexture2D::6951529024180298870::1755494486::1757055143::1::::<><><>0<>0<>4a204b94df98b1031c1759e3d1f2b5ab<>res://.godot/imported/TS_Field_Grass.png-b04074acf5c6714ac3a56e0e5460db78.ctex::
+TS_Forest_Grass.png::CompressedTexture2D::1379552529338827412::1755494486::1757055143::1::::<><><>0<>0<>5d0cb84a4b9ab1155588db5dde6d26e2<>res://.godot/imported/TS_Forest_Grass.png-d724bd80c3448ebdbbdfe73faffe032c.ctex::
+TS_House.png::CompressedTexture2D::8297853968164089670::1755494486::1757055143::1::::<><><>0<>0<>ec785f7b4622d40eeb160110e4e2d53a<>res://.godot/imported/TS_House.png-9abc1046415e88d5fd98c5a169049952.ctex::
+TS_Pathways.png::CompressedTexture2D::3495257653336854479::1755494486::1757055143::1::::<><><>0<>0<>2e94f72f0a67f7b3f7d6c2390466ebc9<>res://.godot/imported/TS_Pathways.png-bfee0838109cbde95ac42ceb691ec2d8.ctex::
+TS_Snowy_Mountain.png::CompressedTexture2D::3194920971806721339::1755494486::1757055143::1::::<><><>0<>0<>964020484dcbd97d9e4dd4fe4a82e1be<>res://.godot/imported/TS_Snowy_Mountain.png-4a4a94388b189a9166f773db5a119b2a.ctex::
+::res://Godot - Project Ares AI/addons/Farm RPG FREE 16x16 - Tiny Asset Pack/::1756368716
+::res://Godot - Project Ares AI/addons/Farm RPG FREE 16x16 - Tiny Asset Pack/Character/::1756368716
+Idle.png::CompressedTexture2D::265944820070834773::1755494486::1757055143::1::::<><><>0<>0<>2483456d604ba5884008e7cff3c1b567<>res://.godot/imported/Idle.png-caec842adc851aecad75a8fbf18a23c4.ctex::
+Walk.png::CompressedTexture2D::1712518127668914111::1755494486::1757055143::1::::<><><>0<>0<>444a4a03769ca0a1db349cb9840a57cb<>res://.godot/imported/Walk.png-d60b431a5c73777016a8499c0588a528.ctex::
+::res://Godot - Project Ares AI/addons/Farm RPG FREE 16x16 - Tiny Asset Pack/Farm Animals/::1756368716
+Baby Chicken Yellow.png::CompressedTexture2D::3132780773566004788::1755494486::1757055143::1::::<><><>0<>0<>640c5d2896d63aadeeef8a4ed353d305<>res://.godot/imported/Baby Chicken Yellow.png-85e20dcf156c5e10e55e2bc9e536c92a.ctex::
+Chicken Blonde  Green.png::CompressedTexture2D::114898343099738907::1755494486::1757055143::1::::<><><>0<>0<>617b56184fbe057d686f93be5c1d1668<>res://.godot/imported/Chicken Blonde  Green.png-0c490cd78d212388d35d434ac006ee50.ctex::
+Chicken Red.png::CompressedTexture2D::148519180902392528::1755494486::1757055143::1::::<><><>0<>0<>fefdeac8c68bde7f5750ba1a372b33c4<>res://.godot/imported/Chicken Red.png-be821d420c7813f279954025186aff06.ctex::
+Female Cow Brown.png::CompressedTexture2D::199352212617338037::1755494486::1757055143::1::::<><><>0<>0<>b8b6e72c98a02002b9098b60fd46acbd<>res://.godot/imported/Female Cow Brown.png-e564c16515f97608f47f0bbe02b00a01.ctex::
+Male Cow Brown.png::CompressedTexture2D::4632265213912940504::1755494486::1757055143::1::::<><><>0<>0<>5f30e7b6ee7743a7f22b95ba3fe18fac<>res://.godot/imported/Male Cow Brown.png-1b7cdd971d96501a20d0d381f903ecaf.ctex::
+::res://Godot - Project Ares AI/addons/Farm RPG FREE 16x16 - Tiny Asset Pack/Objects/::1756368716
+Fence's copiar.png::CompressedTexture2D::4320073856159118280::1755494486::1757055143::1::::<><><>0<>0<>79bca63420989782a19df00804405e99<>res://.godot/imported/Fence's copiar.png-b8900dbbf87accef1113af9cfbf2c823.ctex::
+House.png::CompressedTexture2D::1592904958354059902::1755494486::1757055143::1::::<><><>0<>0<>afd6256a7e25f6a6d8c49c9335017bc4<>res://.godot/imported/House.png-a8b7a10816fe55be8abdaec0e99e12cf.ctex::
+Interior.png::CompressedTexture2D::6117352238103104817::1755494486::1757055143::1::::<><><>0<>0<>f54e8ea73be7abd4059c1021335642e4<>res://.godot/imported/Interior.png-04e5ffde81043e188d0efd2d012e756d.ctex::
+Maple Tree.png::CompressedTexture2D::1824009549910593634::1755494486::1757055143::1::::<><><>0<>0<>2278d18b1d50c3422738583e6cfe3ab3<>res://.godot/imported/Maple Tree.png-b1d6c91d986279cd12410d0539cfb925.ctex::
+Road copiar.png::CompressedTexture2D::2197653632239857068::1755494486::1757055143::1::::<><><>0<>0<>bb95ca2b201217fc7fc7ee434b692c97<>res://.godot/imported/Road copiar.png-d0b45417914eebb783e976fd0b5866d7.ctex::
+Spring Crops.png::CompressedTexture2D::3639995454042655873::1755494486::1757055143::1::::<><><>0<>0<>f3d25c64ca4fc8679675c6e1b1ba624e<>res://.godot/imported/Spring Crops.png-77a6621d14eadb84f5469a73f88a146c.ctex::
+::res://Godot - Project Ares AI/addons/Farm RPG FREE 16x16 - Tiny Asset Pack/Tileset/::1756368716
+Tileset Spring.png::CompressedTexture2D::8500854344585868177::1755494486::1757055143::1::::<><><>0<>0<>fd6924f1b6a9a90467127943f21d201e<>res://.godot/imported/Tileset Spring.png-b74ac573f909eb51ef41eccc5ea83104.ctex::
+::res://Godot - Project Ares AI/addons/Forest_Monsters_FREE/::1756368716
+::res://Godot - Project Ares AI/addons/Forest_Monsters_FREE/Mushroom/::1756368716
+::res://Godot - Project Ares AI/addons/Forest_Monsters_FREE/Mushroom/Mushroom with VFX/::1756368716
+Mushroom-Attack.png::CompressedTexture2D::8103729920697650304::1755519001::1757055143::1::::<><><>0<>0<>ee97fe08055666c8b13ddf1c8cb7d2cb<>res://.godot/imported/Mushroom-Attack.png-2a363a30ef03c1a608cb7411925ba6d5.ctex::
+Mushroom-AttackWithStun.png::CompressedTexture2D::846754678799464476::1755519001::1757055143::1::::<><><>0<>0<>1e2616c19e4972141fc03cf5db17bd64<>res://.godot/imported/Mushroom-AttackWithStun.png-6a013af70b87b57fc026c4cf4647561b.ctex::
+Mushroom-Die.png::CompressedTexture2D::9084774610215854923::1755519001::1757055143::1::::<><><>0<>0<>91550a5af1462ec29b9d8d4e5d4ca988<>res://.godot/imported/Mushroom-Die.png-31ec8dc442c3b76677cb4eac1dab185d.ctex::
+Mushroom-Hit.png::CompressedTexture2D::4703323774755982352::1755519001::1757055143::1::::<><><>0<>0<>05e177035d3de3acc13518a3b532d110<>res://.godot/imported/Mushroom-Hit.png-804ec31db90c38eb1c1e43b63eebbdf0.ctex::
+Mushroom-Idle.png::CompressedTexture2D::2908331917121591168::1755519001::1757055143::1::::<><><>0<>0<>9d404e741211c2847bd00b41e7261951<>res://.godot/imported/Mushroom-Idle.png-0f0c027ab3137ee3abc58cbab5cbe665.ctex::
+Mushroom-Run.png::CompressedTexture2D::5714140160524851830::1755519001::1757055143::1::::<><><>0<>0<>1ea7e19f3fb34448bb25b70439afb627<>res://.godot/imported/Mushroom-Run.png-9b9c1459f41caba8e9d120dca80c2d19.ctex::
+Mushroom-Stun.png::CompressedTexture2D::948151897961288158::1755519001::1757055143::1::::<><><>0<>0<>c059ea2bf972364bb588cc98229f4fa8<>res://.godot/imported/Mushroom-Stun.png-cf451ac8009f3cc52fc073de9b916cac.ctex::
+::res://Godot - Project Ares AI/addons/Forest_Monsters_FREE/Mushroom/Mushroom without VFX/::1756368716
+Mushroom-Attack.png::CompressedTexture2D::3594892859812119786::1755519001::1757055143::1::::<><><>0<>0<>59b6dd6b303587e62b28467e82e0128e<>res://.godot/imported/Mushroom-Attack.png-84b64172606a4a8560644a2aa1f1ac0c.ctex::
+Mushroom-AttackWithStun.png::CompressedTexture2D::5556808140870288664::1755519001::1757055143::1::::<><><>0<>0<>efb924e68eb918b4c6b9da0fbc0fc7c7<>res://.godot/imported/Mushroom-AttackWithStun.png-39cb461ad07ebf70192611f9b16b3add.ctex::
+Mushroom-Die.png::CompressedTexture2D::1809354917339165827::1755519001::1757055143::1::::<><><>0<>0<>2c85d9c259b28e452dca2622ed6d2798<>res://.godot/imported/Mushroom-Die.png-54b9cd14c6fb26e2f8685c4eba8bc076.ctex::
+Mushroom-Hit.png::CompressedTexture2D::7341890059747085048::1755519001::1757055143::1::::<><><>0<>0<>7b3650cfc7f44e6c93e5a8f038e03895<>res://.godot/imported/Mushroom-Hit.png-d6b6a17ead5013efacb37440c358b50f.ctex::
+Mushroom-Idle.png::CompressedTexture2D::451610238853589058::1755519001::1757055143::1::::<><><>0<>0<>d570a004a1946316300e08c82ee76249<>res://.godot/imported/Mushroom-Idle.png-83641022d4dbe1124a97b74a6fa18c13.ctex::
+Mushroom-Run.png::CompressedTexture2D::8154341177760615075::1755519001::1757055143::1::::<><><>0<>0<>ff94e7ef9d6b9a8c5bf93cfcbacf02d9<>res://.godot/imported/Mushroom-Run.png-1eda69ee7568c77339427ca3cb74af3b.ctex::
+Mushroom-Stun.png::CompressedTexture2D::6848625396870392467::1755519001::1757055143::1::::<><><>0<>0<>b63b4bdbfb34acea158f2e71a6f565be<>res://.godot/imported/Mushroom-Stun.png-5556286034a534373594fd1ac9420df9.ctex::
+::res://Godot - Project Ares AI/Assets/::1757055124
+::res://Godot - Project Ares AI/Assets/coin-gem-xp/::1756368716
+Chicken.png::CompressedTexture2D::1971831007906215258::1755676116::1757055143::1::::<><><>0<>0<>99965e526c7eab5ed812f2b939cff196<>res://.godot/imported/Chicken.png-f6d218c530c88ed025986bfc7b2002d3.ctex::
+ChickenLeg.png::CompressedTexture2D::346290459588665144::1755676129::1757055143::1::::<><><>0<>0<>b25a37eee0e944c6cd2512e7b6733c89<>res://.godot/imported/ChickenLeg.png-a5646029bc1e01d579bf4901b29179df.ctex::
+gem_06.png::CompressedTexture2D::3842113780328738093::1755675105::1757055143::1::::<><><>0<>0<>87a345fca68f4053d8dc080c170422a7<>res://.godot/imported/gem_06.png-21734a014761a2289dc0a67c3125b974.ctex::
+healthbarProgress.png::CompressedTexture2D::8057162714619692158::1755761060::1757055143::1::::<><><>0<>0<>a0bab79fb4caed0026f3459ebe821cff<>res://.godot/imported/healthbarProgress.png-61b12152086f29154cf80d22bd42eaa2.ctex::
+healthbarUnder.png::CompressedTexture2D::4448395285760691761::1755678680::1757055143::1::::<><><>0<>0<>dcb070641cc73e2a1209aa3abbf79740<>res://.godot/imported/healthbarUnder.png-9f124b5d148bffb72aeffd17d901808e.ctex::
+long xp bar progress.png::CompressedTexture2D::3092575454472789827::1755762211::1757055143::1::::<><><>0<>0<>8b67c92b289651ccd515a2e4c6f360d2<>res://.godot/imported/long xp bar progress.png-61f93527f1d2a27f1fafd75ea96e4192.ctex::
+long xp bar under.png::CompressedTexture2D::6559675189439411386::1755761971::1757055143::1::::<><><>0<>0<>f62f26989104d3858ff5c42395af48ce<>res://.godot/imported/long xp bar under.png-621f569ca540def0bde879c115af98c6.ctex::
+Skull&Bones - FrodoUndead.png::CompressedTexture2D::8940691979420278024::1755676356::1757055143::1::::<><><>0<>0<>346f547654c2ca6e8935afe37d3ee3fd<>res://.godot/imported/Skull&Bones - FrodoUndead.png-0773e258bf5d3371c1f40a75e5ccc325.ctex::
+skull.png::CompressedTexture2D::6928617378172197301::1755677055::1757055143::1::::<><><>0<>0<>8caa6f9e7e6bfcdc42b7a453eb6b177d<>res://.godot/imported/skull.png-8eedafeb86f8456b3fffb698cc9a8eb4.ctex::
+skull_01a.png::CompressedTexture2D::6806567549795257851::1755676253::1757055143::1::::<><><>0<>0<>ba205841e16e6a59dc963a7ce5cd60bc<>res://.godot/imported/skull_01a.png-b359389d58e78796663cf30540636a46.ctex::
+skull_01b.png::CompressedTexture2D::6012751510839036431::1755676253::1757055143::1::::<><><>0<>0<>d32df1efa893721da29003f003768aa2<>res://.godot/imported/skull_01b.png-ae84fc1119893e3e77795bb59d0e0e4d.ctex::
+::res://Godot - Project Ares AI/Assets/coin-gem-xp/Coin/::1756368716
+::res://Godot - Project Ares AI/Assets/coin-gem-xp/Coin/Asperite File/::1756368716
+::res://Godot - Project Ares AI/Assets/coin-gem-xp/Coin/PNGs/::1756368716
+coin_1.png::CompressedTexture2D::7479263169525538724::1691923484::1757055143::1::::<><><>0<>0<>2b8227508dd0b1f346d31f02941bdbfc<>res://.godot/imported/coin_1.png-58c3fbe4f99e13f214ce85fe6fa7b607.ctex::
+coin_2.png::CompressedTexture2D::7685298927724287456::1691923484::1757055143::1::::<><><>0<>0<>ff57f725ff57cafdec61e8f979a5aa53<>res://.godot/imported/coin_2.png-b53bdd145e236cd5f2ef0ca671434626.ctex::
+coin_3.png::CompressedTexture2D::3224465129638609306::1691923484::1757055143::1::::<><><>0<>0<>1ce12318bb0e5ceffa1a6679701defc1<>res://.godot/imported/coin_3.png-61df6b77d7dd24b786549e8b88bec615.ctex::
+coin_4.png::CompressedTexture2D::4282133906519576525::1691923484::1757055143::1::::<><><>0<>0<>308b7eb250cc67f3a0af89f2011143dc<>res://.godot/imported/coin_4.png-866699a8b11709796671301c5f67ee94.ctex::
+coin_5.png::CompressedTexture2D::7291110787031237778::1691923484::1757055143::1::::<><><>0<>0<>3b1699d8a2119c951412f41e34e01127<>res://.godot/imported/coin_5.png-42ecd6e9c5120deaa6ed62789a670178.ctex::
+coin_6.png::CompressedTexture2D::6409674576226080879::1691923484::1757055143::1::::<><><>0<>0<>6a1db5e94aa6e22f29c3ffbe78a79ec3<>res://.godot/imported/coin_6.png-c72b35d500136013b6a7ac57fb8b6616.ctex::
+coin_7.png::CompressedTexture2D::2056320800510425::1691923484::1757055143::1::::<><><>0<>0<>e7b886367872355a73f92591d6e9bab8<>res://.godot/imported/coin_7.png-d73160206e802e6840c77a14ffba6520.ctex::
+coin_8.png::CompressedTexture2D::3954857475208973477::1691923484::1757055143::1::::<><><>0<>0<>17145cbb9248135662356323291c9f6d<>res://.godot/imported/coin_8.png-2f868149013eb2f27300c157e3acd813.ctex::
+::res://Godot - Project Ares AI/Assets/coin-gem-xp/Coin/Sheet/::1756368716
+coin-Sheet.png::CompressedTexture2D::3761428614656660826::1691924224::1757055143::1::::<><><>0<>0<>9217332b4c03c03836fd4e3b3f707550<>res://.godot/imported/coin-Sheet.png-5631de13655c6d0f1210df5278448e9a.ctex::
+::res://Godot - Project Ares AI/Assets/Enemies/::1755537241
+::res://Godot - Project Ares AI/Assets/Player/::1756368716
+PlayerLars.png::CompressedTexture2D::1269172524847144249::1755250454::1757055143::1::::<><><>0<>0<>60a353c3ed4662ad761d6d53cf4bb9b8<>res://.godot/imported/PlayerLars.png-df2cb2f83a47c96922438f8fa3bd1e62.ctex::
+::res://Godot - Project Ares AI/Assets/Sounds/::1756368716
+coin-recieved-230517.mp3::AudioStreamMP3::5184268496353907870::1755692542::1757055143::1::::<><><>0<>0<>39071334416bebca2b868d890bc25a13<>res://.godot/imported/coin-recieved-230517.mp3-283011f97ff855cf20a9934ce93a1ca9.mp3str::
+lootbox åben lyd 2.mp3::AudioStreamMP3::4340450441148041696::1755671535::1757055143::1::::<><><>0<>0<>cc676e7190a3a6fa6fbc14647fe21dbc<>res://.godot/imported/lootbox åben lyd 2.mp3-17dede428d38f41e7c4462ff2fd663d6.mp3str::
+lootbox åben lyd.mp3::AudioStreamMP3::5766914722532494671::1755671433::1757055143::1::::<><><>0<>0<>ad2ad343ea7bb6fc22d971e96cf4c971<>res://.godot/imported/lootbox åben lyd.mp3-ea5fe59b7e94d3cc4e112b1d32cefc49.mp3str::
+typewriter måske til intro.mp3::AudioStreamMP3::2311755020473923633::1755671264::1757055143::1::::<><><>0<>0<>29e8118c085397e0e92e4863628c7a9c<>res://.godot/imported/typewriter måske til intro.mp3-241137533fa43e2506463ab0e51c560c.mp3str::
+::res://Godot - Project Ares AI/Assets/Sounds/Music/::1756368716
+main music.mp3::AudioStreamMP3::493277848803778020::1755672028::1757055143::1::::<><><>0<>0<>ef0af0b699437b671db13ac8a9bdb0b4<>res://.godot/imported/main music.mp3-5d626eddf8d4030e18c16455bd0d351c.mp3str::
+::res://Godot - Project Ares AI/Assets/weapons/::1756368716
+Arrow01(32x32).png::CompressedTexture2D::1363451107642837331::1755519022::1757055143::1::::<><><>0<>0<>a082dcdfb1fc96bbcf204d5f058dc280<>res://.godot/imported/Arrow01(32x32).png-ba911832b579182a76f024803cf52220.ctex::
+Arrows_pack.png::CompressedTexture2D::7680531567684482211::1756120441::1757055144::1::::<><><>0<>0<>1632df2eb5925c6534e976c35ad621ce<>res://.godot/imported/Arrows_pack.png-bb7e6b752013b942c835c54c72cde0dd.ctex::
+Arrow_impact_pack.png::CompressedTexture2D::1610720111257356973::1756120450::1757055145::1::::<><><>0<>0<>6643d0740733363dcbb5d45056a0f53d<>res://.godot/imported/Arrow_impact_pack.png-1d58697fa296974198dde706f526ae80.ctex::
+firearrow-export.png::CompressedTexture2D::1923880296601393988::1756110124::1757055143::1::::<><><>0<>0<>84197c457eb73a1e7627c52170efcd59<>res://.godot/imported/firearrow-export.png-b61c69402a60fc996e2bfba4bdffd691.ctex::
+firearrow.png::CompressedTexture2D::4946077301227018923::1756109826::1757055143::1::::<><><>0<>0<>8431a0d4a205378f217f2ed3e6635dbd<>res://.godot/imported/firearrow.png-516e247ce3f8b748d1a76a4fd32936f4.ctex::
+icearrow.png::CompressedTexture2D::8056965554615873182::1756197907::1757055143::1::::<><><>0<>0<>60951b2c22e903f64e81c37ff2ffd44e<>res://.godot/imported/icearrow.png-0848a89c72f6f763b7631c0299765e98.ctex::
+::res://models/::1757006524
+::res://models/model 1.0/::1756929720
+death_times.log::TextFile/TextFile::-1::1756928447::0::1::::<><><>0<>0<><>::
+train_loss.log::TextFile/TextFile::-1::1756928448::0::1::::<><><>0<>0<><>::
+::res://models/model 2500 deaths/::1757006514
+death_times.log::TextFile::-1::1757006025::0::1::::<><><>0<>0<><>::
+train_loss.log::TextFile::-1::1757006026::0::1::::<><><>0<>0<><>::
+::res://Scenes/::1757051183
+Arrow.tscn::PackedScene::2827427267709822026::1757016113::0::1::::<><><>0<>0<><>::uid://buxj6ebcsjmfp::::res://Scripts/Arrow.cs<>uid://top3twudmkp4::::res://Assets/weapons/Arrow01(32x32).png
+Gold.cs::CSharpScript::2461558542684251808::1756101361::0::1::::<>Area2D<><>0<>0<><>::
+gold.tscn::PackedScene/PackedScene::3961602202865222967::1756209398::0::1::::<><><>0<>0<><>::uid://bbcnrlb0d3amy::::res://Scenes/Gold.cs<>uid://btucgd1gcnv3g::::res://Assets/coin-gem-xp/Coin/Sheet/coin-Sheet.png
+Main.gdshader::Shader::7163674537911249880::1757051183::0::1::::<><><>0<>0<><>::
+Main.tres::VisualShader/VisualShader::2540064884428935865::1756366625::0::1::::<><><>0<>0<><>::
+Main.tscn::PackedScene::7319485484141763993::1757016113::0::1::::<><><>0<>0<><>::uid://wxu6ag2i8sck::::res://addons/Farm RPG FREE 16x16 - Tiny Asset Pack/Objects/House.png<>uid://08tf2o7yacn7::::res://addons/Farm RPG FREE 16x16 - Tiny Asset Pack/Objects/Maple Tree.png<>uid://6ktbft3rvpwm::::res://addons/Farm RPG FREE 16x16 - Tiny Asset Pack/Objects/Road copiar.png<>uid://twja8chkk10k::::res://addons/Biomes Tilesets/TS_Forest_Grass.png<>uid://b2sw8q65as4f1::::res://addons/Farm RPG FREE 16x16 - Tiny Asset Pack/Objects/Fence's copiar.png<>uid://ctfj5rvqflpef::::res://addons/Farm RPG FREE 16x16 - Tiny Asset Pack/Objects/Interior.png<>uid://br4igtqf6o3ej::::res://addons/Farm RPG FREE 16x16 - Tiny Asset Pack/Objects/Spring Crops.png<>uid://dacew5aedph17::::res://Scenes/Main.gdshader<>uid://dhhh7ubqjakqt::::res://Scenes/player.tscn<>uid://cmdi8fc24licu::::res://addons/AutoBattlers Crew - Free Asset/Battlers Collection Screen.png<>uid://7mdbkosg1qqn::::res://Scenes/mushroom.tscn<>uid://dw65ifskgpjbu::::res://Scenes/stop_watch.tscn<>uid://ha7hjra43ika::::res://Assets/Sounds/Music/main music.mp3
+MultiScene.tscn::PackedScene::-1::1757017011::0::1::::<><><>0<>0<><>::
+multi_sim.tscn::PackedScene::5341291291434451454::1757023176::0::1::::<><><>0<>0<><>::uid://dcju4efgxnei8::::res://Scenes/Main.tscn
+mushroom.tscn::PackedScene::2271000013925617757::1757051175::0::1::::<><><>0<>0<><>::uid://dsfc6g2c2xvbn::::res://Scripts/Mushroom.cs<>uid://drcuf46d2cf3m::::res://Scenes/xpdrop.tscn<>uid://dnprioqqkqy5e::::res://addons/Forest_Monsters_FREE/Mushroom/Mushroom with VFX/Mushroom-Attack.png<>uid://bwpbak70voecd::::res://Scenes/gold.tscn<>uid://d2oy57tnpcwl4::::res://addons/Forest_Monsters_FREE/Mushroom/Mushroom with VFX/Mushroom-Die.png<>uid://bho22i3p6048s::::res://addons/Forest_Monsters_FREE/Mushroom/Mushroom with VFX/Mushroom-Idle.png<>uid://nrj6ni0daqve::::res://addons/Forest_Monsters_FREE/Mushroom/Mushroom with VFX/Mushroom-Stun.png<>uid://cnn8b27uj8why::::res://addons/Forest_Monsters_FREE/Mushroom/Mushroom with VFX/Mushroom-Run.png<>uid://bci1s7odtnnru::::res://Scripts/HP.cs
+player.tscn::PackedScene::7665517817929083435::1757051183::0::1::::<><><>0<>0<><>::uid://sc2c6qlqbby4::::res://Assets/Player/PlayerLars.png<>uid://gxdja7l3mats::::res://Scripts/Player.cs<>uid://bhhiriadfpboj::::res://Scenes/upgrade_menu.tscn<>uid://bci1s7odtnnru::::res://Scripts/HP.cs
+SocketServer.cs::CSharpScript::7347539980129545914::1757022557::0::1::::<>Node2D<><>0<>0<><>::
+socket_server.tscn::PackedScene/PackedScene::113233930867273036::1756901358::0::1::::<><><>0<>0<><>::uid://dcxg56688uklm::::res://Scenes/SocketServer.cs
+stop_watch.tscn::PackedScene/PackedScene::8769248408512304242::1756901358::0::1::::<><><>0<>0<><>::uid://d273857yfuulb::::res://Scripts/StopwatchLabel.cs<>uid://drbr21uc55xim::::res://Scripts/XpBar.cs
+UpgradeMenu.cs::CSharpScript::5661486225991831546::1756202068::0::1::::<>Control<><>0<>0<><>::
+upgrade_menu.tscn::PackedScene/PackedScene::2892709748206641425::1756901358::0::1::::<><><>0<>0<><>::uid://cmwp360ixxdhy::::res://Scenes/UpgradeMenu.cs
+xpdrop.tscn::PackedScene/PackedScene::8357825988497390776::1756901358::0::1::::<><><>0<>0<><>::uid://b114hb61pdmw6::::res://Scripts/Xpdrop.cs<>uid://c5yjk0hrc5c66::::res://Assets/coin-gem-xp/skull.png<>uid://cf4ke6jo7ot4i::::res://Assets/Sounds/coin-recieved-230517.mp3
+::res://Scripts/::1757022557
+Arrow.cs::CSharpScript::3838280269096571217::1756202133::0::1::::<>Area2D<><>0<>0<><>::
+EnemySpawner.cs::CSharpScript::9112011958086302023::1757017326::0::1::::<>Node2D<><>0<>0<><>::
+HP.cs::CSharpScript::2544925881640549890::1755584058::0::1::::<>Node<><>0<>0<><>::
+mob_mushroom.gd::GDScript/GDScript::541411853713462527::1755519001::0::1::::<>RigidBody2D<><>0<>0<><>::
+Mushroom.cs::CSharpScript::8433160275908469995::1756899389::0::1::::<>CharacterBody2D<><>0<>0<><>::
+Player.cs::CSharpScript::468812023266433304::1757022557::0::1::::<>CharacterBody2D<><>0<>0<><>::
+PlayerData.cs::CSharpScript::8465424626890157370::1756202033::0::1::::PlayerData<>Resource<><>0<>0<><>::
+StopwatchLabel.cs::CSharpScript::9122181550664599991::1756729649::0::1::::<>Label<><>0<>0<><>::
+XpBar.cs::CSharpScript::8355618572627734536::1756899799::0::1::::<>Label<><>0<>0<><>::
+Xpdrop.cs::CSharpScript::4266777834848844611::1756849462::0::1::::<>Area2D<><>0<>0<><>::
