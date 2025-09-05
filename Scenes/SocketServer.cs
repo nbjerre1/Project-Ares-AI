@@ -154,20 +154,6 @@ public partial class SocketServer : Node2D
                 mobStates.Add(m.GetState());
         }
 
-        // Collect XP drop states
-        var xpDropStates = new List<Dictionary<string, float>>();
-        foreach (var xpNode in GetTree().GetNodesInGroup("xpdrop"))
-        {
-            if (xpNode is Node2D xp)
-            {
-                xpDropStates.Add(new Dictionary<string, float>
-            {
-                { "x", xp.GlobalPosition.X },
-                { "y", xp.GlobalPosition.Y }
-            });
-            }
-        }
-
         Player player = GetTree().Root.FindChild("Player", true, false) as Player;
         if (player != null)
         {
@@ -177,9 +163,7 @@ public partial class SocketServer : Node2D
                 y = player.GlobalPosition.Y,
                 health = player.Health,
                 timer = StopwatchLabel.GameTime,
-                xpdrop = player._xp,
-                mobs = mobStates,
-                xp_drops = xpDropStates
+                mobs = mobStates
             };
             string json = JsonSerializer.Serialize(state) + "\n";
             lock (_stateLock)

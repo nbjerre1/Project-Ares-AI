@@ -21,6 +21,7 @@ motion_mode = 1
 platform_on_leave = 2
 script = ExtResource("1_onrkg")
 Speed = 200.0
+ShootCooldown = 9.22337e+18
 UpgradeMenuScene = ExtResource("2_vgqql")
 
 [node name="PlayerLars" type="Sprite2D" parent="."]

@@ -9,6 +9,7 @@
     <None Include="createmodel.py" />
     <None Include="multiple_bots.py" />
     <None Include="plot_loss.py" />
+    <None Include="Scenes\MultiScene.tscn" />
     <None Include="train_loss.log" />
     <None Include="usemodel.py" />
   </ItemGroup>

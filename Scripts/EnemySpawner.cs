@@ -20,7 +20,8 @@ public partial class EnemySpawner : Node2D
 
         _timer = SpawnInterval; // This will trigger the first spawn immediately
 
-
+        // If you need to reference the player, use GetParent().GetNode<Player>("Player") or similar,
+        // to ensure you are referencing the local scene's player, not a global singleton.
     }
 
     public override void _Process(double delta)

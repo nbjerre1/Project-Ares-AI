@@ -1,4 +1,4 @@
-[gd_scene load_steps=34 format=4 uid="uid://dcju4efgxnei8"]
+[gd_scene load_steps=33 format=4 uid="uid://dcju4efgxnei8"]
 
 [ext_resource type="Texture2D" uid="uid://wxu6ag2i8sck" path="res://addons/Farm RPG FREE 16x16 - Tiny Asset Pack/Objects/House.png" id="1_vy5pj"]
 [ext_resource type="Texture2D" uid="uid://08tf2o7yacn7" path="res://addons/Farm RPG FREE 16x16 - Tiny Asset Pack/Objects/Maple Tree.png" id="2_bmxlf"]
@@ -11,7 +11,6 @@
 [ext_resource type="PackedScene" uid="uid://dhhh7ubqjakqt" path="res://Scenes/player.tscn" id="8_erwvk"]
 [ext_resource type="Texture2D" uid="uid://cmdi8fc24licu" path="res://addons/AutoBattlers Crew - Free Asset/Battlers Collection Screen.png" id="9_1p5hy"]
 [ext_resource type="PackedScene" uid="uid://7mdbkosg1qqn" path="res://Scenes/mushroom.tscn" id="9_2w5on"]
-[ext_resource type="Script" uid="uid://d226rgs1pkx00" path="res://Scripts/EnemySpawner.cs" id="10_bmxlf"]
 [ext_resource type="PackedScene" uid="uid://dw65ifskgpjbu" path="res://Scenes/stop_watch.tscn" id="11_4kpch"]
 [ext_resource type="AudioStream" uid="uid://ha7hjra43ika" path="res://Assets/Sounds/Music/main music.mp3" id="12_grg3l"]
 
@@ -1481,19 +1480,6 @@ use_kinematic_bodies = true
 position = Vector2(2, 0)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
-position = Vector2(-2, 0)
-zoom = Vector2(1.72, 1.72)
-limit_left = -1720
-limit_top = -1520
-limit_right = 1600
-limit_bottom = 1515
-
-[node name="EnemySpawner" type="Node2D" parent="."]
-script = ExtResource("10_bmxlf")
-EnemyScene = ExtResource("9_2w5on")
-SpawnInterval = 0.1
-MaxEnemies = 10
-CameraPath = NodePath("../Player/Camera2D")
 
 [node name="StopWatch" parent="." instance=ExtResource("11_4kpch")]
 
@@ -1515,3 +1501,6 @@ shape = SubResource("WorldBoundaryShape2D_2w5on")
 
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
 shape = SubResource("WorldBoundaryShape2D_346fj")
+
+[node name="Mushroom" parent="." instance=ExtResource("9_2w5on")]
+position = Vector2(-223, -3)

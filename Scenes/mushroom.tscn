@@ -448,7 +448,7 @@ animations = [{
 radius = 14.0
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_g77dt"]
-radius = 14.0
+radius = 15.175
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g77dt"]
 bg_color = Color(1, 0, 0, 1)
