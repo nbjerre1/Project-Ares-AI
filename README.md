@@ -10,7 +10,7 @@ My project demonstrates a reinforcement learning agent using Deep Q-Learning wit
 ## Technology Stack
 
 - **Game Engine:** Godot (C#/.NET 8 for game logic and environment)
-- **AI/ML Framework:** PyTorch (Python)
+- **AI/ML Framework:** PyTorch. (Python)
 - **Communication:** TCP sockets (Python ↔ Godot)
 - **Visualization:** Matplotlib (for training curves and diagnostics)
 - **Other:** Numpy, argparse, custom scripts for data logging and plotting
